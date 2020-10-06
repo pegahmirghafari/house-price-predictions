@@ -113,7 +113,7 @@ We will raise all ordinals to the second power to increase the model's sense of 
 ### Low-occurrence column values identified in EDA
 <br/>
 
-***for the compelete data cleaning process please visit [this notebook](https://github.com/pegahmirghafari/perfect-spotify-playlist/blob/main/02_EDA.ipynb).***
+***for the compelete data cleaning process please visit [this notebook](https://github.com/pegahmirghafari/house-price-predictions/blob/main/house%20price%20preds.ipynb).***
 
 <br/> 
 
@@ -143,7 +143,7 @@ We will raise all ordinals to the second power to increase the model's sense of 
 <img src="./Assets/heatmap.png" width="100%" height="100%">
 <br/>
 
-***refer to [this notebook](https://github.com/pegahmirghafari/perfect-spotify-playlist/blob/main/02_EDA.ipynb) for an undepth look at the feature engineering process***
+***refer to [this notebook](https://github.com/pegahmirghafari/house-price-predictions/blob/main/house%20price%20preds.ipynb) for an undepth look at the feature engineering process***
 <br/> 
 
 
