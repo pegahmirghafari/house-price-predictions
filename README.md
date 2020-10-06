@@ -166,7 +166,7 @@ We will raise all ordinals to the second power to increase the model's sense of 
 
 ## Model Preparation
 <br/> 
-We need to create dummy columns for all nominal and ordinal variables. polynomialfeature the approriate data. Next we establish our final sets for modeling, and conduct a train/test split for model evaluation.  We still need a holdout out of our training data, and Set up scaled data for models requiring it.
+We need to create dummy columns for all nominal and ordinal variables. Next we establish our final sets for modeling, and conduct a train/test split for model evaluation.  We still need a holdout out of our training data, and Set up scaled data for models requiring it.
 
 <br/> 
 
