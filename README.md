@@ -110,7 +110,8 @@ We will raise all ordinals to the second power to increase the model's sense of 
 
 ### Low-occurrence column values identified in EDA
 <br/>
-***for the compelete data cleaning process please visit [this notebook](https://github.com/pegahmirghafari/perfect-spotify-playlist/blob/main/02_EDA.ipynb)***
+
+***for the compelete data cleaning process please visit [this notebook](https://github.com/pegahmirghafari/perfect-spotify-playlist/blob/main/02_EDA.ipynb).***
 
 <br/> 
 
