@@ -131,7 +131,7 @@ We will raise all ordinals to the second power to increase the model's sense of 
 ## Exploratory Data Analysis
 <br/> 
 
-<img src="./assets/heatmap.png" width="100%" height="100%">
+<img src="./assets/heatmap.png" width="50%" height="50%">
 
 **Analysis:**
 
@@ -144,13 +144,7 @@ We will raise all ordinals to the second power to increase the model's sense of 
 - Number of bathrooms, rooms, and fireplaces also seem important.
 
 
-<img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Lot Area.png" width="10%" height="10%">
-<img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Lot Frontage.png" width="10%" height="10%">
-<img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Lot Shape.png" width="10%" height="10%">
-<img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Land Slope.png" width="10%" height="10%">
-<img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Overall Cond.png" width="10%" height="10%">
-<img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Overall Qual.png" width="10%" height="10%">
-<img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Year Built.png" width="10%" height="10%">
+<img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Lot Area.png" width="10%" height="10%"><img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Lot Frontage.png" width="10%" height="10%"><img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Lot Shape.png" width="10%" height="10%"><img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Land Slope.png" width="10%" height="10%"><img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Overall Cond.png" width="10%" height="10%"><img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Overall Qual.png" width="10%" height="10%"><img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Year Built.png" width="10%" height="10%">
 
 **Analysis:**
 
