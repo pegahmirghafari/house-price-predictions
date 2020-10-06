@@ -24,7 +24,7 @@ developing a product that will quickly price a consumer's house with an interpre
 - [Model Selection](#Model-Selection)
 - [Model Evaluation](#Model-Evaluation)
 - [Conclusion & Recommendations](#Conclusion-&-Recommendations)
-- [References](#References)
+- [APP](#APP)
 <br/> 
 
 
@@ -185,19 +185,9 @@ We believe this is a strong proof-of-concept for an on-demand housing valuation 
 <br/> 
 
 
-## References
+## APP
 <br/> 
 
-- [Plaintext Data Dictionary](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt)
+**plrease refere to this link for the [app]()**
 
-- [Formatted Data Dictionary (Kaggle)](https://www.kaggle.com/c/dsi-us-12-project-2-regression-challenge/data)
-
-- [Reference for management of data cleaning with variable values in training and test set](https://medium.com/@vaibhavshukla182/how-to-solve-mismatch-in-train-and-test-set-after-categorical-encoding-8320ed03552f)
-
-- [Heavily referenced notebook for feature engineering workflow. Attribution given in markdown where code was copied or adapted](https://www.kaggle.com/juliencs/a-study-on-regression-applied-to-the-ames-dataset)
-
-- [Heavily referenced notebook for feature engineering, XGBoost Hyperparameter benchmarks, and ensemble model implementation](https://www.kaggle.com/serigne/stacked-regressions-top-4-on-leaderboard)
-
-- [Reference for selecting SGDRegressor Hyperparameters](http://dsdeepdive.blogspot.com/2015/08/hyperparameter-optimization-with-python.html)
-
-- [Code used for selecting XGBoost Hyperparameters](https://blog.cambridgespark.com/hyperparameter-tuning-in-xgboost-4ff9100a3b2f)
+<br/> 
