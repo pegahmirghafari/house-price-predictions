@@ -7,7 +7,7 @@ ___
 ## Table of Contents
 <br/> 
 
-1. [Problem Statement](#Problem-Statement)
+- [Problem Statement](#Problem-Statement)
 - [Executive Summary](#Executive-Summary)
 - [Data Dictionary](#Data-Dictionary)
 - [Data Cleaning](#Data-Cleaning)  
@@ -26,6 +26,7 @@ ___
 - [References](#References)
 <br/> 
 ___
+
 ## Problem Statement
 <br/> 
 We'd like to create a proof-of-concept model that demonstrates we can achieve a low error metric despite incomplete or missing data. The only currently available dataset is the Ames Housing Price dataset, so we must use the resources at hand to construct an accurate model to show to non-technical stakeholders within the company.
@@ -57,6 +58,7 @@ ___
 [Formatted Data Dictionary Here](https://www.kaggle.com/c/dsi-us-12-project-2-regression-challenge/data)
 <br/> 
 ___
+
 ## Data Cleaning
 <br/> 
 ### Data Types and Data Dictionary Interpretation
@@ -177,6 +179,7 @@ We believe this is a strong proof-of-concept for an on-demand housing valuation 
 
 <br/> 
 ___
+
 ## References
 <br/> 
 - [Plaintext Data Dictionary](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt)
