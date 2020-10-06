@@ -61,6 +61,7 @@ The last step will be to submit our predictions on the original test data to an 
 
 ## Data Cleaning
 <br/> 
+
 ### Data Types and Data Dictionary Interpretation
 <br/> 
 In order to clean and prepare this data correctly, we need to bring the training and testing data together, otherwise we may miss categorical values present in one set but not another, and have other difficulties with replicating our data cleaning on both sets.
