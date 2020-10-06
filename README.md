@@ -72,24 +72,34 @@ to not loose track of which is which i will add a dummy column.
 
 ### NA Values
 <br/> 
-Reviewing our Data Dictionary, we see that an "NA" in "Pool QC" means "No Pool."   
-An "NA" in "Misc Feature" means "No miscellaneous feature."  
-An "NA" in "Alley" means "No alley access."  
-An "NA" in "Fence" means "No Fence"  
-An "NA" in "FireplaceQu" means "No Fireplace"  
-"NA" in Garage Finish, Condition, Quality, Yr Built, and Type means "No Garage"  
-"NA" in the Basement columns means "No Basement"  
-"NA" in Masonry Veneer means no masonry  
 
-We'd like to look closer at missing entries in "Garage Cars" and "Garage Area"
+Reviewing our Data Dictionary, we see that 
 
-Missing entries in Basement Square Footage most likely represent no basement.
+- an "NA" in "Pool QC" means "No Pool." 
 
-An "NA" in "Lot Frontage" seems to mean that the property is not connected to streets.
+- An "NA" in "Misc Feature" means "No miscellaneous feature."
 
-"NA" in Electrical should be assigned the minimum value of the ordinal system
+- An "NA" in "Alley" means "No alley access."
 
-Missing values in "Sale Price" are simply the testing data, which have the column removed.
+- An "NA" in "Fence" means "No Fence"  
+
+- An "NA" in "FireplaceQu" means "No Fireplace" 
+
+- "NA" in Garage Finish, Condition, Quality, Yr Built, and Type means "No Garage" 
+
+- "NA" in the Basement columns means "No Basement"  
+
+- "NA" in Masonry Veneer means no masonry  
+
+- We'd like to look closer at missing entries in "Garage Cars" and "Garage Area"
+
+- Missing entries in Basement Square Footage most likely represent no basement.
+
+- An "NA" in "Lot Frontage" seems to mean that the property is not connected to streets.
+
+- "NA" in Electrical should be assigned the minimum value of the ordinal system
+
+- Missing values in "Sale Price" are simply the testing data, which have the column removed.
 <br/> 
 
 ### Numeric Variables
