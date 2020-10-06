@@ -110,7 +110,8 @@ We will raise all ordinals to the second power to increase the model's sense of 
 
 ### Low-occurrence column values identified in EDA
 <br/>
-***for the compelete data cleaning process please visit [this notebook](https://github.com/pegahmirghafari/perfect-spotify-playlist/blob/main/02_EDA.ipynb) ***
+***for the compelete data cleaning process please visit [this notebook](https://github.com/pegahmirghafari/perfect-spotify-playlist/blob/main/02_EDA.ipynb)***
+
 <br/> 
 
 
@@ -183,6 +184,7 @@ We believe this is a strong proof-of-concept for an on-demand housing valuation 
 
 ## References
 <br/> 
+
 - [Plaintext Data Dictionary](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt)
 
 - [Formatted Data Dictionary (Kaggle)](https://www.kaggle.com/c/dsi-us-12-project-2-regression-challenge/data)
