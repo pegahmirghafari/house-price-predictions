@@ -104,7 +104,7 @@ Reviewing our Data Dictionary, we see that
 
 ### Numeric Variables
 <br/>
-e note that Month Sold is given as 1-12, we should convert this to a categorical, as there is no numeric significance to the number of a month.  
+We note that Month Sold is given as 1-12, we should convert this to a categorical, as there is no numeric significance to the number of a month.  
 
 We should likewise convert Year Sold into a categorical variable.
 
@@ -131,14 +131,30 @@ We will raise all ordinals to the second power to increase the model's sense of 
 ## Exploratory Data Analysis
 <br/> 
 
-<img src="./Assets/heatmap.png" width="100%" height="100%">
+<img src="./assets/heatmap.png" width="100%" height="100%">
+
 **Analysis:**
--
+
+- Unsurprisingly, some of the generic "Quality" features are our best standalone predictors. 
+
+- Some of the "Area" features are also important.
+
+- Year Built/Remodeled are important.
+
+- Number of bathrooms, rooms, and fireplaces also seem important.
 
 
-<img src="./Assets/heatmap.png" width="100%" height="100%">
+<img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Lot Area.png" width="10%" height="10%">
+<img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Lot Frontage.png" width="10%" height="10%">
+<img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Lot Shape.png" width="10%" height="10%">
+<img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Land Slope.png" width="10%" height="10%">
+<img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Overall Cond.png" width="10%" height="10%">
+<img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Overall Qual.png" width="10%" height="10%">
+<img src="./assets/Distribution and RelationshipDistribution and Relationship to Sale Price of Year Built.png" width="10%" height="10%">
+
 **Analysis:**
--
+
+- In our first runthrough, these visualizations allowed us to identify numerous "garbage" columns which we could throw out, or needed to be rebinned due to low frequency of observations
 
 
 <br/> 
@@ -147,10 +163,7 @@ We will raise all ordinals to the second power to increase the model's sense of 
 ## Feature Engineering
 <br/>
 
-<img src="./Assets/heatmap.png" width="100%" height="100%">
-<br/>
-
-<img src="./Assets/heatmap.png" width="100%" height="100%">
+<img src="./assets/pre-log price.png" width="50%" height="50%"> <img src="./assets/post-log price.png" width="50%" height="50%">
 <br/>
 
 ***refer to [this notebook](https://github.com/pegahmirghafari/house-price-predictions/blob/main/house%20price%20preds.ipynb) for an undepth look at the feature engineering process***
@@ -175,8 +188,15 @@ We were originally including an Ordinary Least Squares model, but the extent of 
 <br/> 
 our best model has a train R2 Score: 0.9986 and a test R2 Score: 0.94845 and RMSE 18052.98588
 
-<img src="./Assets/heatmap.png" width="100%" height="100%">
+<img src="./assets/Distribution and RelationshipLasso Model Residual Plots.png" width="10%" height="10%">
+<img src="./assets/Distribution and RelationshipRidge Model Residual Plots.png" width="10%" height="10%">
+<img src="./assets/Distribution and RelationshipElasticNet Model Residual Plots.png" width="10%" height="10%">
+<img src="./assets/Distribution and RelationshipStochastic Gradient Descent Residual Plots.png" width="10%" height="10%">
+<img src="./assets/Distribution and RelationshipXGBoost Residual Plots.png" width="10%" height="10%">
+<img src="./assets/Distribution and RelationshipEnsemble Model Residual Plots.png" width="10%" height="10%">
+
 **Analysis:**
+
 - Examining our residual plots against holdout data, we see solid normality of residuals, tolerable but noteworthy heteroscedasticity, and strong linearity in the relationship between predicted and true values. While our model has some issues with predicting very high values, we're confident in the overall fit.
 
 <br/> 
