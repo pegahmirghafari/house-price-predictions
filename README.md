@@ -1,6 +1,8 @@
 # house-price-predictions
 developing a product that will quickly price a consumer's house with an interpretable confidence range
-*Pegah Mirghafari
+
+*Pegah Mirghafari*
+
 <br/> 
 
 ## Table of Contents
