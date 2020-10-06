@@ -110,7 +110,7 @@ We will raise all ordinals to the second power to increase the model's sense of 
 
 ### Low-occurrence column values identified in EDA
 <br/>
-***for the compelete data cleaning process please visit [this notebook](https://github.com/pegahmirghafari/perfect-spotify-playlist/blob/main/02_EDA.ipynb)***
+***for the compelete data cleaning process please visit [this notebook](https://github.com/pegahmirghafari/perfect-spotify-playlist/blob/main/02_EDA.ipynb) ***
 <br/> 
 
 
@@ -184,9 +184,15 @@ We believe this is a strong proof-of-concept for an on-demand housing valuation 
 ## References
 <br/> 
 - [Plaintext Data Dictionary](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt)
+
 - [Formatted Data Dictionary (Kaggle)](https://www.kaggle.com/c/dsi-us-12-project-2-regression-challenge/data)
+
 - [Reference for management of data cleaning with variable values in training and test set](https://medium.com/@vaibhavshukla182/how-to-solve-mismatch-in-train-and-test-set-after-categorical-encoding-8320ed03552f)
+
 - [Heavily referenced notebook for feature engineering workflow. Attribution given in markdown where code was copied or adapted](https://www.kaggle.com/juliencs/a-study-on-regression-applied-to-the-ames-dataset)
+
 - [Heavily referenced notebook for feature engineering, XGBoost Hyperparameter benchmarks, and ensemble model implementation](https://www.kaggle.com/serigne/stacked-regressions-top-4-on-leaderboard)
+
 - [Reference for selecting SGDRegressor Hyperparameters](http://dsdeepdive.blogspot.com/2015/08/hyperparameter-optimization-with-python.html)
+
 - [Code used for selecting XGBoost Hyperparameters](https://blog.cambridgespark.com/hyperparameter-tuning-in-xgboost-4ff9100a3b2f)
