@@ -2,7 +2,6 @@
 developing a product that will quickly price a consumer's house with an interpretable confidence range
 *Pegah Mirghafari
 <br/> 
-___
 
 ## Table of Contents
 <br/> 
@@ -25,13 +24,13 @@ ___
 - [Conclusion & Recommendations](#Conclusion-&-Recommendations)
 - [References](#References)
 <br/> 
-___
+
 
 ## Problem Statement
 <br/> 
 We'd like to create a proof-of-concept model that demonstrates we can achieve a low error metric despite incomplete or missing data. The only currently available dataset is the Ames Housing Price dataset, so we must use the resources at hand to construct an accurate model to show to non-technical stakeholders within the company.
 <br/> 
-___
+
 
 ## Executive Summary
 <br/> 
@@ -49,15 +48,16 @@ Our model evaluation metric has been chosen as Root Mean Squared Error. In conte
 
 The last step will be to submit our predictions on the original test data to an "Independent House Price Prediction Auditor," a.k.a. Kaggle, and find out the true performance of our model on unseen data.
 <br/> 
-___
+
 
 ## Data Dictionary
 <br/> 
+
 [Plaintext Data Dictionary Here](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt)
 
 [Formatted Data Dictionary Here](https://www.kaggle.com/c/dsi-us-12-project-2-regression-challenge/data)
 <br/> 
-___
+
 
 ## Data Cleaning
 <br/> 
@@ -111,7 +111,7 @@ We will raise all ordinals to the second power to increase the model's sense of 
 <br/>
 ***for the compelete data cleaning process please visit [this notebook](https://github.com/pegahmirghafari/perfect-spotify-playlist/blob/main/02_EDA.ipynb)***
 <br/> 
-___
+
 
 ## Exploratory Data Analysis
 <br/> 
@@ -127,7 +127,7 @@ ___
 
 
 <br/> 
-___
+
 
 ## Feature Engineering
 <br/>
@@ -140,21 +140,21 @@ ___
 
 ***refer to [this notebook](https://github.com/pegahmirghafari/perfect-spotify-playlist/blob/main/02_EDA.ipynb) for an undepth look at the feature engineering process***
 <br/> 
-___
+
 
 ## Model Preparation
 <br/> 
 We need to create dummy columns for all nominal and ordinal variables. polynomialfeature the approriate data. Next we establish our final sets for modeling, and conduct a train/test split for model evaluation.  We still need a holdout out of our training data, and Set up scaled data for models requiring it.
 
 <br/> 
-___
+
 
 ## Model Selection
 <br/> 
 We were originally including an Ordinary Least Squares model, but the extent of our feature engineering damages it too much to be useful. Instead, we're running with Lasso, Ridge, ElasticNet, and Stochastic Gradient Descent regression models, along with the XGBoost gradient descent regressor.
 
 <br/> 
-___
+
 
 ## Model Evaluation
 <br/> 
@@ -165,7 +165,7 @@ our best model has a train R2 Score: 0.9986 and a test R2 Score: 0.94845 and RMS
 - Examining our residual plots against holdout data, we see solid normality of residuals, tolerable but noteworthy heteroscedasticity, and strong linearity in the relationship between predicted and true values. While our model has some issues with predicting very high values, we're confident in the overall fit.
 
 <br/> 
-___
+
 
 ## Conclusion & Recommendations
 <br/> 
@@ -178,7 +178,7 @@ While the low-level projection of the model (Sale Price plus or minus MSRE) is e
 We believe this is a strong proof-of-concept for an on-demand housing valuation model, and should be the basis for Parameter Inc.'s housing valuation product moving forward.
 
 <br/> 
-___
+
 
 ## References
 <br/> 
