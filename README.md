@@ -47,8 +47,6 @@ Third, we will conduct feature engineering to create combinations of our differe
 Finally, we will select appropriate models to test plus a null model, and compare them individually against a weighted ensemble model, which predicts the average of all the underlying model's predictions for each data point.
 
 Our model evaluation metric has been chosen as Root Mean Squared Error. In context, the RMSE of our models reflects the idea that "Our model has an average error of $______ across all predictions." This is a concise and useful metric which is easily representable to stakeholders, or our fictional company's customers. 
-
-The last step will be to submit our predictions on the original test data to an "Independent House Price Prediction Auditor," a.k.a. Kaggle, and find out the true performance of our model on unseen data.
 <br/> 
 
 
