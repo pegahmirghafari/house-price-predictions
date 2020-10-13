@@ -191,13 +191,13 @@ our best model has a train R2 Score: 0.9986 and a test R2 Score: 0.94845 and RMS
 
 ## Conclusion & Recommendations
 <br/> 
-Our final model has an MSRE of 17894, which can be taken to mean "The average error in predicted sale price for the model is \\$17,894."
+Our final model has an MSRE of 17894, which can be taken to mean "The average error in predicted sale price for the model is $17,894."
 
-We believe this model is fundamentally sound, as it violates only one LINE assumption (homoscedasticity), and does not show signs of overfitting based on the difference in R2 scores for training and holdout data. Its final test will be against Kaggle, where we are 2nd on the leaderboard at time of writing with an MSRE of 19698.
+We believe this model is fundamentally sound, as it violates only one LINE assumption (homoscedasticity), and does not show signs of overfitting based on the difference in R2 scores for training and holdout data. 
 
 While the low-level projection of the model (Sale Price plus or minus MSRE) is easily interpretable, it is important to note that we have not selected models whose coefficients can be interpreted straightforwardly, particularly due to transformations of our independent variables. This is still addressable in a production context with some work, but is an evaluation factor depending on the context of application. Since the uniform-weight ensemble model is simply the mean of all 5 input model's predictions, we can distinguish how much weight each individual X-variable in a given prediction, and what that impact had on the overall valuation.
 
-We believe this is a strong proof-of-concept for an on-demand housing valuation model, and should be the basis for Parameter Inc.'s housing valuation product moving forward.
+We believe this is a strong proof-of-concept for an on-demand housing valuation model.
 
 <br/> 
 
