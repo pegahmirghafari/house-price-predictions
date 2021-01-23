@@ -158,7 +158,7 @@ We will raise all ordinals to the second power to increase the model's sense of 
 <img src="./assets/pre-log price.png" width="50%" height="50%"><img src="./assets/post-log price.png" width="50%" height="50%">
 <br/>
 
-***refer to [this notebook](https://github.com/pegahmirghafari/house-price-predictions/blob/main/house%20price%20preds.ipynb) for an undepth look at the feature engineering process***
+***refer to [this notebook](https://github.com/pegahmirghafari/house-price-predictions/blob/main/house%20price%20preds.ipynb) for an indepth look at the feature engineering process***
 <br/> 
 
 
